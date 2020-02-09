@@ -6,6 +6,9 @@ The following shows what I did step by step.
 
 Each step can be found on the cooresponding branch.
 
+## step-04-nested-routing-with-path-parameters
+Worked through the _Demo 3: Nested routing with Path parameters_ section of the tutorial.
+
 ## step-03-nested-routing
 Worked through the _Demo 2: nested routing_ section of the tutorial.
 
