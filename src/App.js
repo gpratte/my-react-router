@@ -1,14 +1,10 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
+import {Link, Route, Switch} from 'react-router-dom';
+import Category from './Category'
 
 const Home = () => (
   <div>
     <h2>Home</h2>
-  </div>
-)
-const Category = () => (
-  <div>
-    <h2>Category</h2>
   </div>
 )
 const Products = () => (
@@ -31,9 +27,11 @@ class App extends React.Component {
           </ul>
         </nav>
 
-        <Route exact={true} path="/" component={Home}/>
-        <Route path="/category" component={Category}/>
-        <Route path="/products" component={Products}/>
+        <Switch>
+          <Route exact={true} path="/" component={Home}/>
+          <Route path="/category" component={Category}/>
+          <Route path="/products" component={Products}/>
+        </Switch>
 
       </div>
     )

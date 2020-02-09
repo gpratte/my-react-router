@@ -6,6 +6,9 @@ The following shows what I did step by step.
 
 Each step can be found on the cooresponding branch.
 
+## step-03-nested-routing
+Worked through the _Demo 2: nested routing_ section of the tutorial.
+
 ## step-02-basic-routing
 Worked through the _Demo 1: Basic Routing_ section of the tutorial.
 
