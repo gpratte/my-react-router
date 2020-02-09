@@ -1,15 +1,11 @@
 import React from 'react';
 import {Link, Route, Switch} from 'react-router-dom';
 import Category from './Category'
+import Products from './Products'
 
 const Home = () => (
   <div>
     <h2>Home</h2>
-  </div>
-)
-const Products = () => (
-  <div>
-    <h2>Products</h2>
   </div>
 )
 
